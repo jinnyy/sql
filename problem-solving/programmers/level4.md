@@ -24,7 +24,6 @@ https://programmers.co.kr/learn/courses/30/lessons/62284
 * FROM절에서 NAME에 "요거트"가 있는 row들을 찾은 후
 * 원래 테이블과 inner join해서 NAME에 "우유"와 "요거트"가 모두 있는 테이블을 찾는다.
 
-코드
 ``` sql
 SELECT DISTINCT M.CART_ID
 FROM 
